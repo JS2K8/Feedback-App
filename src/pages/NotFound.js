@@ -6,7 +6,7 @@ const NotFound = () => {
         <Card>
             You've taken a wrong turn.
             <p>
-          <Link to="/">Back to home.</Link>
+          <Link className="back-btn" to="/">Back to home.</Link>
         </p>
         </Card>
     )
